@@ -1,4 +1,4 @@
-export default {
+const auth_config = {
   providers: [
     {
       domain: "https://definite-ram-29.clerk.accounts.dev",
@@ -6,3 +6,5 @@ export default {
     },
   ],
 };
+
+export default auth_config;
