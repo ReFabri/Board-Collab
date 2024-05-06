@@ -29,6 +29,7 @@ function Item({ id, name, imageUrl }: ItemProps) {
         onClick={onClick}
         alt={name}
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className={cn(
           "rounded-md cursor-pointer opacity-75 hover:opacity-100 transition",
           isActive && "opacity-100"
